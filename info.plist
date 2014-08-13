@@ -59,7 +59,7 @@ go_to_space("{query}")
 				<key>escaping</key>
 				<integer>127</integer>
 				<key>keyword</key>
-				<string>d</string>
+				<string>ts</string>
 				<key>runningsubtext</key>
 				<string>Retrieving list of spaces</string>
 				<key>script</key>
