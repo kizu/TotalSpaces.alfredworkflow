@@ -8,7 +8,7 @@
 	<string>Productivity</string>
 	<key>connections</key>
 	<dict>
-		<key>22EA9665-33E0-405C-AE22-A343597937DB</key>
+		<key>9E6169C4-1BBE-419E-ADCA-1DBD90AB5EBF</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
@@ -55,18 +55,30 @@ go_to_space("{query}")
 			<key>config</key>
 			<dict>
 				<key>argumenttype</key>
-				<integer>0</integer>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>127</integer>
 				<key>keyword</key>
-				<string>s</string>
-				<key>text</key>
-				<string>Switch to space “{query}”</string>
+				<string>d</string>
+				<key>runningsubtext</key>
+				<string>Retrieving list of spaces</string>
+				<key>script</key>
+				<string>$LOAD_PATH &lt;&lt; '.'
+require 'alfred_list_spaces.rb'
+
+alfred_list_spaces("{query}")
+</string>
+				<key>title</key>
+				<string>Switch to space</string>
+				<key>type</key>
+				<integer>2</integer>
 				<key>withspace</key>
-				<true/>
+				<false/>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
+			<string>alfred.workflow.input.scriptfilter</string>
 			<key>uid</key>
-			<string>22EA9665-33E0-405C-AE22-A343597937DB</string>
+			<string>9E6169C4-1BBE-419E-ADCA-1DBD90AB5EBF</string>
 			<key>version</key>
 			<integer>0</integer>
 		</dict>
@@ -75,12 +87,12 @@ go_to_space("{query}")
 	<string></string>
 	<key>uidata</key>
 	<dict>
-		<key>22EA9665-33E0-405C-AE22-A343597937DB</key>
+		<key>4708129F-7192-4AF5-AC65-6572E909F47B</key>
 		<dict>
 			<key>ypos</key>
 			<real>10</real>
 		</dict>
-		<key>4708129F-7192-4AF5-AC65-6572E909F47B</key>
+		<key>9E6169C4-1BBE-419E-ADCA-1DBD90AB5EBF</key>
 		<dict>
 			<key>ypos</key>
 			<real>10</real>
