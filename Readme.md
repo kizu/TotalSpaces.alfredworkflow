@@ -4,7 +4,7 @@ _Work in Progress_, I have some plans for this workflow, only the basic stuff is
 
 ## Install
 
-0. You'll need to buy [Alfred's Powerpack](http://www.alfredapp.com/powerpack/), as only it supports workflows. Then you'll need to **buy** [TotalSpaces 2](http://totalspaces.binaryage.com/), as the ruby API for it works only for licensed version and is disabled for trial.
+0. You'll need to buy [Alfred's Powerpack](http://www.alfredapp.com/powerpack/), as only it supports workflows. Then you'll need to **buy** [TotalSpaces 2](http://totalspaces.binaryage.com/), as the [ruby API](https://github.com/binaryage/totalspaces2-api/tree/master/ruby) for it works only for licensed version and is disabled for trial.
 
     Both those apps are worth it and could enhance your workflows significantly even if you're not using Spaces :)
 

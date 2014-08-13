@@ -37,9 +37,9 @@
 				<integer>127</integer>
 				<key>script</key>
 				<string>$LOAD_PATH &lt;&lt; '.'
-require 'move_to_desktop.rb'
+require 'go_to_space.rb'
 
-move_to_space("{query}")
+go_to_space("{query}")
 </string>
 				<key>type</key>
 				<integer>2</integer>

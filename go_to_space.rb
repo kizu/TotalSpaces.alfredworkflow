@@ -1,6 +1,6 @@
 require 'totalspaces2'
 
-def move_to_space(query)
+def go_to_space(query)
     target_space = query.downcase
     current_space = TotalSpaces2.current_space
     number_of_spaces = TotalSpaces2.number_of_spaces
