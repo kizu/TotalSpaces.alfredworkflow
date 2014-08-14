@@ -3,6 +3,8 @@ require 'totalspaces2'
 def alfred_list_spaces(query)
     query.strip!
 
+    query_reg = /^#{query.downcase.split('').join('.*?') + '.*?'}/
+
     # Commented out as it slows things down a bit
     # windows = TotalSpaces2.window_list
 
@@ -27,7 +29,7 @@ def alfred_list_spaces(query)
             uid = Time.now.to_s + name_for_space
         end
 
-        if space == query.to_i or query.length == 0 or name_for_space.downcase.start_with?(query.downcase)
+        if space == query.to_i or query.length == 0 or query_reg.match name_for_space.downcase
 
             unique_apps = []
 
