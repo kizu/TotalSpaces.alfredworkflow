@@ -16,11 +16,23 @@ _Work in Progress_, I have some plans for this workflow, only the basic stuff is
 
 2. Clone this repo into `workflows` folder of your Alfred's Preferences or download and double click on it.
 
-## Use
+## Usage
 
-Right now there is only one command: `s [space]`, which accepts either the space's number, or its name (or first letters of this name).
+### Switching to a space
 
-It is a basic stuff, but I'm planning to add things like displaying the list of all spaces, renaming them etc., but this is all in the future.
+The default keyword to trigger workflow is `ts`. You can then either start writing the name for the space you'd like to switch to, or press space to list all the spaces you have.
+
+After that you can write letters to fuzzy match the space you need, so `ts dshbrd` would switch you to `Dashboard` space etc.
+
+The space is not needed between the keyword, so you can switch really fast by writing something like `tsda`.
+
+To make things even faster, you can rename the keyword to something with one letter, like `s` or `d`, but I would keep `ts` as a default, so it wouldn't conflict with other workflows.
+
+### Moving current active window to a space
+
+After you have selected a space and before you have selected it, you can hold the `ctrl` key, in that case selecting a space would move the current active window to this space instead of switching to it.
+
+- - -
 
 Enjoy!
 
