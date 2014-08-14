@@ -24,7 +24,7 @@
 				<key>modifiers</key>
 				<integer>262144</integer>
 				<key>modifiersubtext</key>
-				<string>Send current active window to this space</string>
+				<string>Move the current window to space number {query}</string>
 			</dict>
 		</array>
 	</dict>
@@ -38,27 +38,6 @@
 	<string>TotalSpaces switcher</string>
 	<key>objects</key>
 	<array>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>escaping</key>
-				<integer>127</integer>
-				<key>script</key>
-				<string>$LOAD_PATH &lt;&lt; '.'
-require 'go_to_space.rb'
-
-go_to_space("{query}")
-</string>
-				<key>type</key>
-				<integer>2</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>4708129F-7192-4AF5-AC65-6572E909F47B</string>
-			<key>version</key>
-			<integer>0</integer>
-		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
@@ -87,6 +66,27 @@ alfred_list_spaces("{query}")
 			<string>alfred.workflow.input.scriptfilter</string>
 			<key>uid</key>
 			<string>9E6169C4-1BBE-419E-ADCA-1DBD90AB5EBF</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>escaping</key>
+				<integer>127</integer>
+				<key>script</key>
+				<string>$LOAD_PATH &lt;&lt; '.'
+require 'go_to_space.rb'
+
+go_to_space("{query}")
+</string>
+				<key>type</key>
+				<integer>2</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>4708129F-7192-4AF5-AC65-6572E909F47B</string>
 			<key>version</key>
 			<integer>0</integer>
 		</dict>
