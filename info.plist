@@ -8,6 +8,17 @@
 	<string>Productivity</string>
 	<key>connections</key>
 	<dict>
+		<key>1847B749-70A9-40FD-AEAB-4F5F65EE53FB</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>9E6169C4-1BBE-419E-ADCA-1DBD90AB5EBF</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
 		<key>9E6169C4-1BBE-419E-ADCA-1DBD90AB5EBF</key>
 		<array>
 			<dict>
@@ -38,6 +49,33 @@
 	<string>TotalSpaces switcher</string>
 	<key>objects</key>
 	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>0</integer>
+				<key>hotkey</key>
+				<integer>0</integer>
+				<key>hotmod</key>
+				<integer>0</integer>
+				<key>hotstring</key>
+				<string></string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>2</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>1847B749-70A9-40FD-AEAB-4F5F65EE53FB</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
@@ -116,6 +154,11 @@ send_to_space("{query}")
 	<string></string>
 	<key>uidata</key>
 	<dict>
+		<key>1847B749-70A9-40FD-AEAB-4F5F65EE53FB</key>
+		<dict>
+			<key>ypos</key>
+			<real>10</real>
+		</dict>
 		<key>4708129F-7192-4AF5-AC65-6572E909F47B</key>
 		<dict>
 			<key>ypos</key>

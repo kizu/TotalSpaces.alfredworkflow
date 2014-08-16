@@ -30,6 +30,8 @@ The space is not needed between the keyword, so you can switch really fast by wr
 
 To make things even faster, you can rename the keyword to something with one letter, like `s` or `d`, but I would keep `ts` as a default, so it wouldn't conflict with other workflows.
 
+You can also set up a hotkey to call the workflow, just open up the workflow in Alfred.app's Workflows editor, double click the empty “Hotkey” item and enter the desired hotkey.
+
 ### Moving current active window to a space
 
 After you have selected a space and before you have selected it, you can hold the `ctrl` key, in that case selecting a space would move the current active window to this space instead of switching to it.
