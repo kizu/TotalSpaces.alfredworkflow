@@ -57,11 +57,11 @@
 				<key>argument</key>
 				<integer>0</integer>
 				<key>hotkey</key>
-				<integer>0</integer>
+				<integer>49</integer>
 				<key>hotmod</key>
-				<integer>0</integer>
+				<integer>1835008</integer>
 				<key>hotstring</key>
-				<string></string>
+				<string>Space</string>
 				<key>leftcursor</key>
 				<false/>
 				<key>modsmode</key>
@@ -88,7 +88,10 @@
 				<key>runningsubtext</key>
 				<string>Retrieving list of spaces</string>
 				<key>script</key>
-				<string>$LOAD_PATH &lt;&lt; '.'
+				<string>#!/usr/bin/env ruby
+# -*- coding: utf-8 -*-
+
+$LOAD_PATH &lt;&lt; '.'
 require 'alfred_list_spaces.rb'
 
 alfred_list_spaces("{query}")
@@ -113,7 +116,10 @@ alfred_list_spaces("{query}")
 				<key>escaping</key>
 				<integer>127</integer>
 				<key>script</key>
-				<string>$LOAD_PATH &lt;&lt; '.'
+				<string>#!/usr/bin/env ruby
+# -*- coding: utf-8 -*-
+
+$LOAD_PATH &lt;&lt; '.'
 require 'go_to_space.rb'
 
 go_to_space("{query}")
@@ -134,7 +140,10 @@ go_to_space("{query}")
 				<key>escaping</key>
 				<integer>127</integer>
 				<key>script</key>
-				<string>$LOAD_PATH &lt;&lt; '.'
+				<string>#!/usr/bin/env ruby
+# -*- coding: utf-8 -*-
+
+$LOAD_PATH &lt;&lt; '.'
 require 'send_to_space.rb'
 
 send_to_space("{query}")

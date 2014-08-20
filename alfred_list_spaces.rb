@@ -1,3 +1,6 @@
+#!/usr/bin/env ruby
+# -*- coding: utf-8 -*-
+
 require 'totalspaces2'
 
 def alfred_list_spaces(query)
